@@ -1,8 +1,31 @@
-# React + Vite
+# GitHub Profile Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **React.js** application that allows users to search for GitHub profiles by username. It displays profile details such as bio, location, followers, and public repositories. Each repository is shown on a separate card with key information like description, language, stars, and last update.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Search for GitHub users by username
+- Display user profile details including:
+  - Profile picture
+  - Bio
+  - Location
+  - Followers/Following count
+  - Public repositories count
+  - GitHub account creation date
+- List public repositories with:
+  - Description
+  - Programming language
+  - Stars and forks count
+  - Last update date
+- Responsive design with clean, interactive UI
+
+## Demo
+
+You can view a demo of the app here: [GitHub Profile Finder](#)
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Pratikdevelops/github-profile-finder.git
+   
